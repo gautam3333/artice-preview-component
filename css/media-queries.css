@@ -1,0 +1,32 @@
+/***** MAX-WIDTH: 768px *****/
+@media (max-width: 768px) {
+  .card {
+    display: block;
+  }
+
+  .social-icons {
+    top: 80%;
+  }
+}
+
+/***** MAX-WIDTH: 384px */
+@media (max-width: 384px) {
+  .card-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .card-text p {
+    color: var(--desaturated-dark-blue);
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-bottom: 2.4rem;
+  }
+
+  .name-date-box h2 {
+    font-size: 1rem;
+  }
+
+  .name-date-box p {
+    font-size: 1rem;
+  }
+}

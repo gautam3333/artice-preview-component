@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media-queries.css" />
+    <title>Article Preview Component</title>
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <div class="card-image">
+          <img src="./images/drawers.jpg" alt="drawers" />
+        </div>
+        <div class="card-text">
+          <h1>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I&apos;ve got some simple tips to
+            help you make any room feel complete.
+          </p>
+
+          <!-- avatar and share box -->
+          <article class="avatar-share-box">
+            <div class="avatar">
+              <img src="./images/avatar-michelle.jpg" alt="avatar" />
+              <div class="name-date-box">
+                <h2>Michelle Appleton</h2>
+                <p>28 Jun 2020</p>
+              </div>
+            </div>
+            <div class="share">
+              <button class="btn-share">
+                <ion-icon name="arrow-redo" class="share-icon"></ion-icon>
+              </button>
+            </div>
+          </article>
+
+          <!-- social icons -->
+          <ul class="social-icons">
+            <li class="share-label">SHARE</li>
+            <li>
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-pinterest"></ion-icon></a>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </main>
+
+    <!-- script -->
+    <script src="./js/index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
